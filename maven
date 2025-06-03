@@ -1,1 +1,12 @@
+git config --global user.name vish22ise
+git config --global user.email vish22ise@cmrit.ac.in
+git config --global user.token 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
+mkdir test11
+cd test11
 mvn archetype:generate -DgroupId=com.dineshonjava -DartifactId=Javateam -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+git init
+git add .
+git commit -m "test11"
+git branch -m main
+git remote add origin https://github.com/vish22ise/test11.git
+git push -u origin main
